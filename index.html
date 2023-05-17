@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Shopping list</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/icons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/icons/site.webmanifest" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app-container">
+      <img src="assets/img/pngwing.com.png" alt="shopping list img" />
+      <div class="input-button">
+        <input type="text" id="input-field" placeholder='ex: "bread"' />
+        <button id="add-button">Add to shopping list</button>
+        <ul id="shopping-list"></ul>
+      </div>
+      <span class="tooltiptext"
+        >&#8505; : Double click to erase item from the list.</span
+      >
+    </div>
+    <script src="functions.js" type="module"></script>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
